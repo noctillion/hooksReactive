@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.divone {
+  display: flex;
+  flex-direction: column;
+}
+
+.one {
+  height: 400px;
+  background-color: burlywood;
+  border: 1px solid black;
+}
+
+.divtwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+  grid-template-rows: 1fr;
+}
+
+.two {
+  height: 400px;
+  background-color: rgb(184, 190, 255);
+  border: 1px solid black;
+}
+
+.divthree {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.three {
+  height: 400px;
+  background-color: rgb(255, 184, 220);
+  border: 1px solid black;
+}
+
+.divonea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vw;
+}
+
+.cardContainer {
+  width: 30vw;
+  height: 100%;
+  border: 1px solid black;
+  background-color: black;
+}
